@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="485.0" prefWidth="657.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mytable.FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <TableView fx:id="tablex" layoutX="161.0" layoutY="106.0" prefHeight="238.0" prefWidth="386.0">
+              <columns>
+                <TableColumn fx:id="namex" prefWidth="140.80003356933594" text="name" />
+                <TableColumn fx:id="agex" minWidth="9.5999755859375" prefWidth="140.800048828125" text="age" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
